@@ -9,7 +9,7 @@ var main=function(){
 		},200);
 		$('.icon-close').animate({
 			left:"0px"
-		},200);
+		},1000);
 	});
 	//Then push them back
 	$('.icon-close').click(function(){
@@ -21,13 +21,19 @@ var main=function(){
 		},200);
 		$('.icon-close').animate({
 			left:"-400px"
-		},200)
+		},1000);
 	});
 	$('.icon-menu').on('mouseover',function(){
 		$('.icon-menu').css('color','yellow')
 	});
 	$('.icon-menu').on('mouseout',function(){
 		$('.icon-menu').css('color','white')
+	});
+	$('.menu a').on('mouseover',function(){
+		$(this).css('color','yellow')
+	});
+	$('.menu a').on('mouseout',function(){
+		$(this).css('color','white')
 	});
 };
 
