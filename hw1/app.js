@@ -31,9 +31,11 @@ var main=function(){
 	});
 	$('.menu a').on('mouseover',function(){
 		$(this).css('color','yellow')
+		$(this).css('font-size','80px')
 	});
 	$('.menu a').on('mouseout',function(){
 		$(this).css('color','white')
+		$(this).css('font-size','60px')
 	});
 };
 
