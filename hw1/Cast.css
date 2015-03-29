@@ -1,0 +1,20 @@
+body,html{
+background-color:#BE0200;
+text-align:center;
+}
+
+.table table{
+	font-family:fantasy;
+	font-size:30px;
+	text-align:center;
+	margin-left:auto;margin-right:auto;
+	margin-top:auto;margin-bottom:atuo;
+}
+.table td{
+	width:200px;
+	height:100px;
+	text-align:center;
+	color:white;
+	-webkit-text-stroke:2px black;
+	margin:15px;
+}

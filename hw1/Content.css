@@ -1,0 +1,36 @@
+body{
+	background-color:#BE0200;
+	text-align:center;
+}
+.top_bottom img{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+h1{
+	color:white;
+	-webkit-text-stroke:2px black;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align:center;
+	font-family:fantasy;
+	font-size:300px;
+}
+.character ul{
+	margin:0;
+	padding:0;
+	display:inline;
+}
+.character li{
+	margin-left:auto;
+	margin-right:auto;
+	display:inline;
+}
+.character img {
+		height:350px;
+		margin:20px;
+	}
+
+.right{
+float:right;
+}

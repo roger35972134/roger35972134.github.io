@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="CardMemoryGame.css">
+</head>
+<body>
+
+	<div id="g"></div>
+  
+	<div class="logo">
+		<div class="card left">
+			<div class="flipper">
+				<div class="f">H</div>
+				<div class="b contentbox" id="stats">
+					<div class="padded">
+						<a href="javascript:;" class="flush">清除資料</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card active twist">
+			<div class="flipper">
+				<a href="hw1.html"><div class="b f">✈</div></a>
+			</div>
+		</div>
+		<div class="card left">
+			<div class="flipper">
+				<div class="f c3">W</div>
+				<div class="b contentbox instructions">
+					<div class="padded">
+						<h1 style="font-size: 45px;">規則</h1>
+						<h2 style="white-space: pre">翻到兩個一樣的會刺激的不見唷 >////<</h2>
+						<h2 style="white-space: pre">[ESC]    跳Game</h2>
+						<h2>太久沒答出來會有提示唷OwO</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card" id="square">
+			<div class="flipper">
+				<div class="f c4">3</div>
+					<div class="b contentbox levels">
+						<a href="javascript:;" data-level="8" class="play">簡單</a>
+						<a href="javascript:;" data-level="18" class="play">正常</a>
+						<a href="javascript:;" data-level="32" class="play">超難</a>
+					</div>	
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="CardMemoryGame.js"></script>
+</html>

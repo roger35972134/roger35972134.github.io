@@ -1,0 +1,19 @@
+body{
+	background-color:#BE0200;
+	text-align:center;
+	height:100%;
+}
+.story{
+	padding:10px;
+}
+.story h1{
+	font-family:fantasy;
+	font-size:80px;
+	color:yellow;
+	-webkit-text-stroke:2px black;
+
+}
+.story p{
+	font-size:25px;
+	color:white;
+}
