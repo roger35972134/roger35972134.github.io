@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		
 		<title>脆皮紅豆餅</title>
 		<script src="http://maps.googleapis.com/maps/api/js"></script>
 		<script>
-		function initialize() {
+			function initialize() {
 			var mapProp = {
 			center:new google.maps.LatLng(25.054342,121.3586807),
-			zoom:18,
+			zoom:5,
 			mapTypeId:google.maps.MapTypeId.ROADMAP
 			};
 			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
@@ -16,43 +16,8 @@
 			google.maps.event.addDomListener(window, 'load', initialize);
 		</script>
 		<link href="RedBean.css" rel='stylesheet'>
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div class="menu">
-		<ul>
-			<div class="pie"><li><a>脆皮紅豆餅</a></li></div>
-			<div class="chicken"><li><a>協力旺雞排</a></li></div>
-			<div class="map"><li><a>Maps</a></li></div>
-		</ul>
-		</div>
-		<div class="RedBean">
-		<h1>脆皮紅豆餅(全素食)</h1>
-		<div class="table">
-			<table>
-				<tr><td>10元</td><td>15元</td><td>20元</td><td>30元</td></tr>
-				<tr><td>紅豆</td><td>紅豆麻糬</td><td>奶油起司</td><td>冰淇淋雪餅</td></tr>
-				<tr><td>奶油</td><td>奶油麻糬</td><td>紅豆起司</td></tr>	
-				<tr><td>花生</td><td>花生麻糬</td><td>蘿蔔絲起司</td></tr>
-				<tr><td>蘿蔔絲</td></tr>
-			</table>
-		</div>
-		</div>
-		<div class="Chicken">
-		<h1>協力旺雞排</h1>
-		<div class="table">
-			<table>
-				<tr><td>20元</td><td>30元</td><td>50元</td></tr>
-				<tr><td>雞翅</td><td>薯條(馬鈴薯)</td><td>雞排</td></tr>
-				<tr><td>花枝丸</td><td>地瓜條</td></tr>
-				<tr><td>甜不辣</td><td>麥克雞塊</td></tr>
-				<tr><td>米血</td></tr>
-			</table>
-		</div>
-		</div>
-		<div id="googleMap" style="width:1000px;height:760px;"></div>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="app.js"></script>
+		<div id="googleMap" style="width:500px;height:380px;"></div>
 	</body>
 </html>
