@@ -1,5 +1,5 @@
 body{
-	background-image:url('http://cdn3.t17.techbang.com.tw/system/attached_images/2011/04/984/original/7453f774d599970d6c338832a14eef1f.jpg?1302607168');
+	background-color:#D1BBFF;
 	height:100%;
 	text-align:center;
 	position:relative;
@@ -48,7 +48,7 @@ h1{
   background:hsla(0,100%,50%,0.3);
   top:180px;
   left:10px;
-  height: 60%;
+  height: 600px;
   position: fixed;
   width: 200px;
 }
