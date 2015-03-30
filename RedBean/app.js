@@ -9,6 +9,7 @@ var main=function(){
 		$(this).css('color','blue');
 		$('.chicken a').css('color','white');
 		$('.map a').css('color','white');
+		$('.telephone a').css('color','white');
 		$('.RedBean').animate({
 			top:'50px'
 		},200);
@@ -16,6 +17,9 @@ var main=function(){
 			top:'-1000px'
 		},200);
 		$('#googleMap').animate({
+			top:'-1000px'
+		},200);
+		$('.Telephone').animate({
 			top:'-1000px'
 		},200);
 	});
@@ -23,6 +27,7 @@ var main=function(){
 		$(this).css('color','blue');
 		$('.pie a').css('color','white');
 		$('.map a').css('color','white');
+		$('.telephone a').css('color','white');
 		$('.RedBean').animate({
 			top:'-1000px'
 		},200);
@@ -30,6 +35,9 @@ var main=function(){
 			top:'50px'
 		},200);
 		$('#googleMap').animate({
+			top:'-1000px'
+		},200);
+		$('.Telephone').animate({
 			top:'-1000px'
 		},200);
 	});
@@ -37,6 +45,7 @@ var main=function(){
 		$(this).css('color','blue');
 		$('.pie a').css('color','white');
 		$('.chicken a').css('color','white');
+		$('.telephone a').css('color','white');
 		$('.RedBean').animate({
 			top:'-1000px'
 		},200);
@@ -46,18 +55,28 @@ var main=function(){
 		$('#googleMap').animate({
 			top:'50px'
 		},200);
+		$('.Telephone').animate({
+			top:'-1000px'
+		},200);
 	});
-	/*$('.map a').on('click',function(){
+	$('.telephone a').on('click',function(){
+		$(this).css('color','blue');
+		$('.pie a').css('color','white');
+		$('.chicken a').css('color','white');
+		$('.map a').css('color','white');
 		$('.RedBean').animate({
 			top:'-1000px'
 		},200);
 		$('.Chicken').animate({
-			top:'-1000px';
+			top:'-1000px'
 		},200);
-		$('.Map').animate({
-			top:'50px';
+		$('#googleMap').animate({
+			top:'-1000px'
 		},200);
-	});*/
+		$('.Telephone').animate({
+			top:'150px'
+		},200);
+	});
 };
 
 $(document).ready(main);
