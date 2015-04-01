@@ -16,8 +16,6 @@
 			google.maps.event.addDomListener(window, 'load', initialize);
 		</script>
 		<link href="RedBean.css" rel='stylesheet'>
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<div class="menu">
@@ -26,13 +24,13 @@
 			<div class="chicken"><li><a>協力旺雞排</a></li></div>
 			<div class="map"><li><a>Maps</a></li></div>
 			<div class="telephone"><li><a>Telephone</a></li></div>
+			<div class="picture"><li><a>產品圖片</a></li></div>
 		</ul>
 		</div>
 		<div class="RedBean">
 		<h1>脆皮紅豆餅(全素食)</h1>
 		<div class="table">
 			<table>
-				<tr><td>10元</td><td>15元</td><td>20元</td><td>30元</td></tr>
 				<tr><td>紅豆</td><td>紅豆麻糬</td><td>奶油起司</td><td>冰淇淋雪餅</td></tr>
 				<tr><td>奶油</td><td>奶油麻糬</td><td>紅豆起司</td></tr>	
 				<tr><td>花生</td><td>花生麻糬</td><td>蘿蔔絲起司</td></tr>
@@ -44,7 +42,6 @@
 		<h1>協力旺雞排</h1>
 		<div class="table">
 			<table>
-				<tr><td>20元</td><td>30元</td><td>50元</td></tr>
 				<tr><td>雞翅</td><td>薯條(馬鈴薯)</td><td>雞排</td></tr>
 				<tr><td>花枝丸</td><td>地瓜條</td></tr>
 				<tr><td>甜不辣</td><td>麥克雞塊</td></tr>
@@ -56,13 +53,24 @@
 		<h1>Telephone</h1>
 		<div class="table">
 			<table>
-				<tr><td>脆皮紅豆餅:</td><td>0915822722</td></tr>
-				<tr><td>協力旺雞排:</td><td>0915822722</td></tr>
+				<tr><td>脆皮紅豆餅:</td><td>0979-418158</td></tr>
+				<tr><td>協力旺雞排:</td><td>0977-720858</td></tr>
 			</table>
 		</div>
 		</div>
+		
 		<div id="googleMap" style="width:1000px;height:760px;"></div>
+		<ul class="list">
+			<li><img id="redbean" src="redbean.jpg"><br>紅豆</li>
+			<li><img id="cream" src="cream.jpg"><br>奶油</li>
+			<li><img id="pinut" src="pinut.jpg"><br>花生</li>
+			<li><img id="radish" src="radish.jpg"><br>蘿蔔絲</li>
+			<li><img id="g_pie" src="chicken.jpg"><br>雞排</li>
+			<li><img id="sweet_potato" src="sweet_potato.jpg"><br>地瓜條</li>
+			<li><img id="pie" src="pie.jpg"><br>脆皮紅豆餅</li>
+		</ul>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="app.js"></script>
+
 	</body>
 </html>
